@@ -1,4 +1,20 @@
-# code_review
-코드리뷰 테스트
+# Project 2
+---
+## Files
 
-레파지토리 내 파일 수정 테스트
+- `goods.cc`, `goods.h` : Goods class Source code
+
+- `shopping.cc`, `shopping.h` : Shopping class Source code
+
+- `main.cc` : Usage for Shopping and Goods class
+
+- `shopping_test.cc` : Unittest codes for Shopping and Goods class 
+                       using GoogleTest Library
+
+## Install
+
+```
+# cmake CMakeLists.txt
+# make
+# ./main
+```
