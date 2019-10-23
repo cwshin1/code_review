@@ -5,25 +5,25 @@ int main(int argc, char* argv[]) {
   Goods goods1;
   Goods goods2;
   Goods goods3;
-  Shopping shoppingList;
+  Shopping shopping_list;
 
   goods1.SetGoodsInfo(2, 3000);
   goods2.SetGoodsInfo(1, 5000);
   goods3.SetGoodsInfo(3, 1000);
 
-  shoppingList.PushList(goods1);
-  shoppingList.PushList(goods2);
-  shoppingList.PushList(goods3);
+  shopping_list.PushList(goods1);
+  shopping_list.PushList(goods2);
+  shopping_list.PushList(goods3);
 
-  shoppingList.PrintList();
+  shopping_list.PrintList();
 
-  shoppingList.SortByPrice();
+  shopping_list.SortByPrice();
 
-  shoppingList.PrintList();
+  shopping_list.PrintList();
 
-  shoppingList.SortByIndex();
+  shopping_list.SortByIndex();
 
-  shoppingList.PrintList();
+  shopping_list.PrintList();
 
   return 0;
 }
